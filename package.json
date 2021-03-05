@@ -1,0 +1,23 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "Tutorial project: desktop application using NodeJS and the Electron framework + API on the Express framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maria-Belova/electron-app.git"
+  },
+  "author": "Maria Belova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maria-Belova/electron-app/issues"
+  },
+  "homepage": "https://github.com/Maria-Belova/electron-app#readme",
+  "devDependencies": {
+    "electron": "^12.0.0"
+  }
+}
