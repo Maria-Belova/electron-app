@@ -10,14 +10,14 @@
   integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
   crossorigin="anonymous"
 />
-<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/style-goods.css">
   <title>Интернет-магазин</title>
 </head>
 <body>
   <header class="container header">
     <div class="row justify-content-between align-items-center">
       <div class="col-2">
-        <a href="#" class="logo-link">
+        <a href="index.html" class="logo-link">
           <img class="logo-img" src="../src/img/logo.svg" alt="logo" />
         </a>
       </div>
@@ -28,7 +28,7 @@
               <a href="./women.html" class="navigation-link">Womens</a>
             </li>
             <li class="navigation-item">
-              <a href="./men.html" class="navigation-link">Men</a>
+              <a href="./men.html" class="navigation-link">Mens</a>
             </li>
             <li class="navigation-item">
               <a href="./kids.html" class="navigation-link">Kids</a>
@@ -51,122 +51,56 @@
     </div>
     <!-- /.row -->
   </header>
-  <div class="slider">
-    <section class="slide slide-1">
-      <div class="container">
-        <div class="row">
-          <div class="col-4 offset-lg-1">
-            <span class="label">Bestseller</span>
-            <h2 class="slide-title">Sweater Choker Neck</h2>
-            <p class="slide-description">
-              Women’s pearl basic knit sweater with a round neck. Available in
-              several colours. Free shipping to stores.
-            </p>
-            <button class="button">
-              <span class="button-price">$319</span>
-              <span class="button-text">Shop now</span>
-            </button>
-          </div>
-          <!-- /.col-4 offset-lg-1 -->
+  <div class="line"></div>
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-6">
+        <div class="goods-img">
         </div>
       </div>
-    </section>
-    <div class="slider-nav">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-1">
-            <button class="slide-button">
-              <img src="../src/img/arrow-prev.svg" alt="prev" />
-            </button>
-          </div>
-          <!-- /.col-1 -->
-          <div class="col-1">
-            <button class="slide-button">
-              <img src="../src/img/arrow-next.svg" alt="next" />
-            </button>
-          </div>
-          <!-- /.col-1 -->
+      <div class="col-6">
+        <div class="card-description">
+          <p class="goods-card-title">Striped Long Sleeve Shirt</p>
+          <p class="mini-card-title-description">Red/Sky Blue</p>
+          <span class="mini-card-price">$119</span>
+          <select class="size"> 
+            <option>Выберите размер</option>
+            <option>42</option>
+            <option>44</option>
+            <option>46</option>
+            <option>48</option>
+          </select>
+          <button class="button-add-goods">
+            <img class="button-icon" src="../src/img/cart.svg" alt="icon: cart" />
+            <span class="button-text">Добавить</span>
+          </button>
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container -->
     </div>
-    <!-- /.slider-nav -->
-  </div>
-  <!-- /.slider -->
-  <div class="container pt-5 pb-4">
     <div class="row">
-      <div class="col-6">
-        <div class="card card-1 mb-4">
-          <h3 class="card-title">Fashion Month Ready in Capital Shop</h3>
-          <p class="card-text">
-            Bags & Acsessories & Lingerie & Sportswear & Beauty & Swimwear
+      <div class="col-7">
+        <div class="goods-description">
+          <p class="p-goods-description">Толстовка из смесового хлопка. Капюшон на трикотажной подкладке, а также молния спереди. Заниженная линия плеча и длинные рукава. Закрытая резинка снизу на рукавах и закрытая резинка с кулиской по нижнему краю. Мягкая изнанка с начесом.</p>
+          <p class="composition-1">
+           <b>Материал верха:</b> Хлопок 60%, Полиэстер 40%
           </p>
-          <button class="button fit-content">
-            <span class="button-text">View all</span>
-            <img src="../src/img/arrow.svg" alt="arrow" class="button-icon" />
-          </button>
-        </div>
-        <!-- /.card -->
-      </div>
-      <!-- /.col-6 -->
-      <div class="col-6">
-        <div class="card card-2 mb-4">
-          <h3 class="card-title text-light">
-            Catch the Sun: Spring Break Styles From $5.99
-          </h3>
-          <p class="card-text text-light">
-            Sweaters & Hoodies & Puffer Jackets & Coats and Jackets & Knit
+          <p class="composition-2">
+            <b>Подкладка капюшона:</b> Хлопок 60%, Полиэстер 40%
           </p>
-          <button class="button fit-content">
-            <span class="button-text">View all</span>
-            <img src="../src/img/arrow.svg" alt="arrow" class="button-icon" />
-          </button>
         </div>
       </div>
-      <!-- /.col-6 -->
-      <div class="col-9">
-        <div class="card card-3">
-          <span class="label fit-content">Bestseller</span>
-          <h3 class="card-title large">
-            Poplin Top <br />
-            With Sleeve Bow
-          </h3>
-          <p class="card-text large">
-            Poplin top with roll neckline, long sleeves
-          </p>
-          <button class="button fit-content">
-            <span class="button-price">$129</span>
-            <span class="button-text">Shop now</span>
-          </button>
-        </div>
-      </div>
-      <!-- /.col-9 -->
-      <div class="col-3">
-        <div class="card card-4">
-          <h3 class="card-title text-light">
-            Printed Shirt <br />
-            with a Bow
-          </h3>
-          <p class="card-text text-light">Pink/Sky Blue/Yellow</p>
-          <span class="card-price">$129</span>
-        </div>
-      </div>
-      <!-- /.col-3 -->
     </div>
-    <!-- /.row -->
+    </div>
   </div>
+  
+  <div class="line"></div>
   <!-- /.container -->
   <div class="container">
     <div class="row justify-content-between arrival-row">
       <div class="col-9">
-        <span class="title-new-card">New Arrival</span>
+        <span class="title-new-card">Сочетается с</span>
       </div>
       <!-- /.col-9 -->
-      <div class="col-1 d-flex justify-content-end">
-        <span class="view">View All</span>
-      </div>
-      <!-- /.col-1 -->
     </div>
   </div>
   <!-- /.container -->
